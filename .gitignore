@@ -7,3 +7,7 @@ client/node_modules
 # production files
 dist
 index.html
+
+# dotnet core files
+server/bin
+server/obj
