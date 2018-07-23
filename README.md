@@ -1,4 +1,7 @@
-# ParkBnb
-React JS 
-.NET Core
-Under construction
+# ParkBnb [Under construction]
+Technologies used:
+- ReactJS
+- SCSS + CSS Modules
+- Webpack
+- Typescript
+- .NET Core
