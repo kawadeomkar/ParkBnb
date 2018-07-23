@@ -1,0 +1,13 @@
+# node modules
+client/node_modules
+
+# apple files
+.DS_Store
+
+# production files
+dist
+index.html
+
+# dotnet core files
+server/bin
+server/obj
