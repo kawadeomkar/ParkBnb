@@ -8,7 +8,8 @@
     "webpack-dev": "webpack --config webpack/webpack.dev.js && webpack-dev-server --config webpack/webpack.dev.js --open",
     "prod": "npm run clean && npm run webpack-prod && node start-server.js",
     "webpack-prod": "webpack -p --config webpack/webpack.prod.js",
-    "clean": "rm -rf dist index.html"
+    "clean": "rm -rf dist index.html",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "author": "Tim Stoddard",
   "repository": {
@@ -30,12 +31,14 @@
     "webpack-merge": "^4.1.2"
   },
   "devDependencies": {
+    "@storybook/react": "^4.0.0-alpha.14",
     "@types/prop-types": "^15.5.3",
     "@types/react": "^16.3.18",
     "@types/react-css-modules": "^4.6.1",
     "@types/react-dom": "^16.0.6",
     "@types/react-loadable": "^5.4.0",
     "@types/react-router-dom": "^4.2.7",
+    "@types/storybook__react": "^3.0.8",
     "awesome-typescript-loader": "^5.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
