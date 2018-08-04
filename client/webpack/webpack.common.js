@@ -4,7 +4,10 @@ const autoprefixer = require('autoprefixer')
 
 module.exports = {
   config: {
-    entry: ['./src/index.tsx'],
+    entry: [
+      './src/index.tsx',
+      './src/index.scss',
+    ],
     output: {
       filename: 'bundle.js',
       path: `${__dirname}/../dist`,
